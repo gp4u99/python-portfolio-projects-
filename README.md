@@ -1,3 +1,4 @@
+
 # Python & AI Engineering Portfolio
 
 Welcome to my central repository for Python projects, financial analytics tools, and core algorithm practice built using Google Colab.
@@ -20,6 +21,14 @@ Welcome to my central repository for Python projects, financial analytics tools,
   * Interactive multi-asset performance trend charting (`AUD/USD`, Crude Oil, Gold) built with `Matplotlib`.
 * **Concepts Applied:** REST API data ingestion, DataFrames, array normalization, Matplotlib multi-line charts.
 
+### 3. Algorithmic Moving Average Crossover Engine (`My_python_practice.ipynb`)
+* **Objective:** Implements automated technical trading logic to generate real-time BUY/SELL execution signals.
+* **Key Features:**
+  * Fast (10-day) and Slow (30-day) Simple Moving Average (SMA) computation over historical price data.
+  * Vectorized conditional logic via `NumPy` to identify bullish/bearish market regimes.
+  * Automated signal marker overlays (green/red indicators) rendered on visual price charts.
+* **Concepts Applied:** Time-series rolling calculations, vectorized array operations, technical analysis logic, visual signal plotting.
+
 ---
 
 ## 🛠️ Tech Stack & Tools
@@ -35,4 +44,4 @@ Welcome to my central repository for Python projects, financial analytics tools,
 - [x] Pandas & NumPy Data Analysis workflow
 - [x] Data Visualization (Matplotlib / Seaborn)
 - [x] Live Data API Integration (Market & Macro Data)
-- [ ] Automation & Algorithmic Trading Rules
+- [x] Automation & Algorithmic Trading Rules
