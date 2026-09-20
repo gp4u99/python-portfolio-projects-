@@ -13,19 +13,20 @@ Welcome to my central repository for Python projects, financial analytics tools,
   * Automated financial summary reporting.
 * **Concepts Applied:** Data structures (Lists, Dicts), functions, condition handling (`if/else`), formatted strings.
 
-### 2. Financial Market Data Analyzer (`My_python_practice.ipynb`)
-* **Objective:** Processes financial asset datasets, calculates technical indicators, and filters market analytics.
+### 2. Financial Market Data Analyzer & Dashboard (`My_python_practice.ipynb`)
+* **Objective:** Processes financial asset datasets, calculates technical indicators, and visualizes asset performance.
 * **Key Features:**
   * Multi-asset tabular data processing using `pandas.DataFrame`.
   * Technical moving average simulation and vectorized array calculations with `NumPy`.
+  * Dynamic visual charting (Bullish vs. Bearish performance) using `Matplotlib`.
   * Automated identification of top gainers and volume metrics.
-* **Concepts Applied:** DataFrames, NumPy vectorization, conditional filtering, numerical aggregation (`np.mean`).
+* **Concepts Applied:** DataFrames, NumPy vectorization, conditional filtering, `Matplotlib` bar charts and customization.
 
 ---
 
 ## 🛠️ Tech Stack & Tools
 * **Language:** Python 3
-* **Libraries:** Pandas, NumPy
+* **Libraries:** Pandas, NumPy, Matplotlib
 * **Environment:** Google Colab / Interactive Notebooks
 * **Version Control:** GitHub
 
@@ -34,6 +35,6 @@ Welcome to my central repository for Python projects, financial analytics tools,
 ## 📈 Roadmap
 - [x] Initial setup & Expense Tracker module
 - [x] Pandas & NumPy Data Analysis workflow
-- [ ] Data Visualization (Matplotlib / Seaborn)
+- [x] Data Visualization (Matplotlib / Seaborn)
 - [ ] Live Data API Integration (Market & Macro Data)
 - [ ] Automation & Algorithmic Logic
